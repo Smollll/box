@@ -1,0 +1,89 @@
+
+<ion-content>
+  <div class="content-box">
+  <ion-card>
+    <ion-card-content class="con">
+      <ion-grid>
+
+        <ion-row>
+         <ion-col>
+          <p style="font-size: larger;"><b>BAKAL</b></p>
+         </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col>
+            <ion-img src="../../assets/as-removebg-preview.png" class="pic1">BAKAL</ion-img>
+          </ion-col>
+        </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <div class="val">
+            ₱ {{ cardContent }}
+      <ion-icon name="trending-down-outline" *ngIf="cardContent < previousValue" size="larger" class="ic1"></ion-icon>
+      <ion-icon name="trending-up-outline" *ngIf="cardContent > previousValue" size="larger" class="ic2"></ion-icon>
+      </div>
+      </ion-col>
+      </ion-row>
+    </ion-grid>
+    </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-content class="con">
+        <ion-grid>
+  
+          <ion-row>
+           <ion-col>
+            <p style="font-size: larger;"><b>BAKAL</b></p>
+           </ion-col>
+          </ion-row>
+  
+          <ion-row>
+            <ion-col>
+              <ion-img src="../../assets/as-removebg-preview.png" class="pic1">BAKAL</ion-img>
+            </ion-col>
+          </ion-row>
+  
+        <ion-row>
+          <ion-col>
+            <div class="val">
+              ₱ {{ cardTwo }}
+        <ion-icon name="trending-down-outline" *ngIf="cardContent < previousValue" size="larger" class="ic1"></ion-icon>
+        <ion-icon name="trending-up-outline" *ngIf="cardContent > previousValue" size="larger" class="ic2"></ion-icon>
+        </div>
+        </ion-col>
+        </ion-row>
+      </ion-grid>
+      </ion-card-content>
+      </ion-card>
+      <ion-card>
+        <ion-card-content class="con">
+          <ion-grid>
+    
+            <ion-row>
+             <ion-col>
+              <p style="font-size: larger;"><b>BAKAL</b></p>
+             </ion-col>
+            </ion-row>
+    
+            <ion-row>
+              <ion-col>
+                <ion-img src="../../assets/as-removebg-preview.png" class="pic1">BAKAL</ion-img>
+              </ion-col>
+            </ion-row>
+    
+          <ion-row>
+            <ion-col>
+              <div class="val">
+                ₱ {{ cardThree }}
+          <ion-icon name="trending-down-outline" *ngIf="cardContent < previousValue" size="larger" class="ic1"></ion-icon>
+          <ion-icon name="trending-up-outline" *ngIf="cardContent > previousValue" size="larger" class="ic2"></ion-icon>
+          </div>
+          </ion-col>
+          </ion-row>
+        </ion-grid>
+        </ion-card-content>
+        </ion-card>
+      </div>
+</ion-content>
